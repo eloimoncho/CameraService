@@ -4,9 +4,10 @@ The camera service is an on-board module that provides images to the rest of mod
 Dashboard or mobile applications will requiere the camera service to provide a single picture or to stard/stop a video stream.
 
 ## Installations
-In order to run and contribute you must install Python 3.7. We recomend to use PyCharm as IDE for developments. You have to edit the configuration and put the parameters as shown in the following picture: 
+In order to run and contribute you must install Python 3.7. However, in this case, Python 3.12 was used without any issues. We recomend to use PyCharm as IDE for developments. You have to edit the configuration and put the parameters as shown in the following picture: 
 
-![image](https://github.com/eloimoncho/AutopilotService/assets/91852608/a6a89519-8c66-4166-b0c9-766c96268871)
+![image](https://github.com/eloimoncho/CameraService/assets/91852608/e45ef3e8-edc0-4ad3-bbe8-298aebf45549)
+
 
 The external broker used must be the _classpip.upc.edu_ because otherways there would not be MQTT connection with the FlutterApp.
 
