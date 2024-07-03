@@ -4,7 +4,15 @@ The camera service is an on-board module that provides images to the rest of mod
 Dashboard or mobile applications will requiere the camera service to provide a single picture or to stard/stop a video stream.
 
 ## Installations
-In order to run and contribute you must install Python 3.7. We recomend to use PyCharm as IDE for developments. In addition, you must install the broker Mosquitto. The internal broker will be always run in localhome, port 1884, in your laptop when working in simulation mode. You must edit the configuration file (_mosquitto.conf_) with the following lines: 
+In order to run and contribute you must install Python 3.7. We recomend to use PyCharm as IDE for developments. You have to edit the configuration and put the parameters as shown in the following picture: 
+
+![image](https://github.com/eloimoncho/AutopilotService/assets/91852608/a6a89519-8c66-4166-b0c9-766c96268871)
+
+The external broker used must be the _classpip.upc.edu_ because otherways there would not be MQTT connection with the FlutterApp.
+
+
+
+In addition, you must install the broker Mosquitto. The internal broker will be always run in localhome, port 1884, in your laptop when working in simulation mode. You must edit the configuration file (_mosquitto.conf_) with the following lines: 
 
 ![image](https://github.com/eloimoncho/CameraService/assets/91852608/539db4d5-b37d-4474-bfef-b3aa0a187ee6)
 
